@@ -92,7 +92,7 @@ app.post("/", function(req, res) {
 //delete item from list
 app.post("/delete", function(req,res) {
 
-  const toDelete =req.body.checkbox;
+  const toDelete = req.body.checkbox;
   const listName = req.body.listName;
 
   if (listName === "Today") {
